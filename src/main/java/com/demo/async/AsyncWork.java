@@ -21,7 +21,6 @@ public class AsyncWork {
     public static Random random = new Random();
 
 
-
     @Async("async")
     public  void task1() throws InterruptedException {
         logger.info("开始做任务一");
